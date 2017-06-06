@@ -1,0 +1,23 @@
+body {
+  color: #262626;
+  font: 14px/1.5 "Times New Roman", Times, serif;
+  margin: 0;
+  background-image: url("../images/main_bg.png");
+}
+body .content {
+  width: 700px;
+  height: 300px;
+  border: 1px solid #2b669a;
+  padding: 30px 40px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -350px;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+body .content .div2 {
+  display: none;
+}
